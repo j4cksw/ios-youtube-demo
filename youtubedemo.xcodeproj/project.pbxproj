@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0958F4F6204F9F66007A1743 /* ArchiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0958F4F5204F9F66007A1743 /* ArchiveTableViewCell.swift */; };
+		0958F4F8204FA6AE007A1743 /* ArchiveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0958F4F7204FA6AE007A1743 /* ArchiveItem.swift */; };
 		09871508204E99E900125840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09871507204E99E900125840 /* AppDelegate.swift */; };
 		0987150A204E99E900125840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09871509204E99E900125840 /* ViewController.swift */; };
 		0987150D204E99E900125840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0987150B204E99E900125840 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0958F4F5204F9F66007A1743 /* ArchiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveTableViewCell.swift; sourceTree = "<group>"; };
+		0958F4F7204FA6AE007A1743 /* ArchiveItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveItem.swift; sourceTree = "<group>"; };
 		09871504204E99E900125840 /* youtubedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtubedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09871507204E99E900125840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09871509204E99E900125840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				0987150E204E99E900125840 /* Assets.xcassets */,
 				09871510204E99E900125840 /* LaunchScreen.storyboard */,
 				09871513204E99E900125840 /* Info.plist */,
+				0958F4F5204F9F66007A1743 /* ArchiveTableViewCell.swift */,
+				0958F4F7204FA6AE007A1743 /* ArchiveItem.swift */,
 			);
 			path = youtubedemo;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0958F4F6204F9F66007A1743 /* ArchiveTableViewCell.swift in Sources */,
+				0958F4F8204FA6AE007A1743 /* ArchiveItem.swift in Sources */,
 				0987150A204E99E900125840 /* ViewController.swift in Sources */,
 				09871508204E99E900125840 /* AppDelegate.swift in Sources */,
 			);
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CLG54SWS2;
 				INFOPLIST_FILE = youtubedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksw.youtubedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CLG54SWS2;
 				INFOPLIST_FILE = youtubedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksw.youtubedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
